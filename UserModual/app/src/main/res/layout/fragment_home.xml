@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.usermodual.Views.SliderViewLayout
+                android:id="@+id/sliderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:indicatorSize="8dp"
+                app:infiniteview="true"
+                app:showIndicator="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                app:showarrow="false"
+                app:timeInterval="2000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is My Empire"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ssr"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@string/lightitalic"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/textcolor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Department"
+                        android:layout_marginTop="20dp"
+                        android:textSize="@dimen/title_size"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/bold"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="50dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/white"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/lightitalic"
+                                android:text="Account"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/race"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/lightitalic"
+                                android:text="State"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/race"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/lightitalic"
+                                android:text="English"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/race"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/lightitalic"
+                                android:text="Eco"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/race"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/lightitalic"
+                                android:text="BA"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:src="@drawable/race"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/lightitalic"
+                                android:text="Gujarati"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Detail"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="@font/bolditalic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S.S.R"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="@font/bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="164/1958 Surya Appartment-3 ,Sola Road, Naranpura,Ahmedabad, Gujarat"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="@font/bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email :- sarthiraval3131@gmail.com"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="@font/bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 6351141350"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="@font/bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/map"
+                    android:layout_height="230dp"
+                    android:src="@drawable/index"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SliderViewLayout">
+        <attr name="timeInterval" format="integer"/>
+        <attr name="showIndicator" format="boolean"/>
+        <attr name="indicatorSize" format="dimension" />
+        <attr name="infiniteview" format="boolean"/>
+        <attr name="showarrow" format="boolean"/>
+    </declare-styleable>
+</resources>

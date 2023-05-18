@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+
+        app:cardCornerRadius="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="12dp"
+                    tools:ignore="Suspicious0dp">
+
+                    <TextView
+                        android:id="@+id/teachername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sarthi Raval"
+                        android:fontFamily="@font/regular"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/teacherpost"
+                        android:fontFamily="@font/regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Principal"
+                        android:layout_marginTop="1dp"
+                        android:textColor="@color/textcolor"
+                        android:textSize="18dp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_marginTop="1dp"
+                            android:id="@+id/teacheremail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:isScrollContainer="false"
+                            android:text="Sarthiravaddxxl@gmail.com"
+                            android:textColor="@color/textcolor"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/regular"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </HorizontalScrollView>
+
+
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/teacherimage"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/profile" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

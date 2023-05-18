@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">UserClgApp</string>
+    <string name="a" tools:ignore="ReferenceType">@font/a</string>
+    <string name="ablack" tools:ignore="ReferenceType">@font/ablack</string>
+    <string name="ablod" tools:ignore="ReferenceType">@font/abold</string>
+    <string name="ademibold" tools:ignore="ReferenceType">@font/ademibold</string>
+    <string name="aextralight" tools:ignore="ReferenceType">@font/aextralight</string>
+    <string name="aitalic" tools:ignore="ReferenceType">@font/aitalic</string>
+    <string name="alight" tools:ignore="ReferenceType">@font/alight</string>
+    <string name="amedium" tools:ignore="ReferenceType">@font/amedium</string>
+    <string name="aregular" tools:ignore="ReferenceType">@font/aregular</string>
+    <string name="asdf" tools:ignore="ReferenceType">@font/asdf</string>
+    <string name="atthin" tools:ignore="ReferenceType">@font/atthin</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/bold</string>
+    <string name="bolditalic" tools:ignore="ReferenceType">@font/bolditalic</string>
+    <string name="italic" tools:ignore="ReferenceType">@font/italic</string>
+    <string name="light" tools:ignore="ReferenceType">@font/light</string>
+    <string name="lightitalic" tools:ignore="ReferenceType">@font/lightitalic</string>
+
+
+    <string name="medium" tools:ignore="ReferenceType">@font/medium</string>
+    <string name="mediumitlic" tools:ignore="ReferenceType">@font/mediumitlic</string>
+    <string name="nrf" tools:ignore="ReferenceType">@font/nrf</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/regular</string>
+    <string name="sads" tools:ignore="ReferenceType">@font/sads</string>
+
+    <string name="semibold" tools:ignore="ReferenceType">@font/semibold</string>
+    <string name="semibolditalic" tools:ignore="ReferenceType">@font/semibolditalic</string>
+    <string name="thin" tools:ignore="ReferenceType">@font/regular</string>
+    <string name="thinitlic" tools:ignore="ReferenceType">@font/thinitlic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="ssr">
+        This Government Polytechnic established in 2021 with the assistance of central government with the aim of developing rural area and including technical skill in the youth to accept global challenges.
+        To secure a challenging position as IT professional to use my software and skills for the progress of organisation and attain career targets.
+        To secure an entry level position in the software development at GLS University Ltd.
+        Possess strong technical skills and ability to pick up new things quickly.
+    </string>
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+</resources>
